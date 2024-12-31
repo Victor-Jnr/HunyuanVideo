@@ -1,0 +1,27 @@
+name: HunyuanVideo
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch>=2.5.1
+  - torchvision
+  - torchaudio
+  - cudatoolkit=12.4
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tqdm
+  - requests
+  - pillow
+  - ffmpeg
+  - pyyaml
+  - pip:
+      - git+https://github.com/Dao-AILab/flash-attention.git@v2.5.9.post1
+      - transformers
+      - diffusers
+      - accelerate
+      - datasets
+      - opencv-python
